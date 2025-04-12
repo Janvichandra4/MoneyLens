@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# MoneyLens – Financial Document Intelligence Platform
 
-## Project info
 
-**URL**: https://lovable.dev/projects/a131d057-d018-4ca2-9497-42ab5a64e7bc
+> “Your finances, visualized and demystified.”
+> MoneyLens is an AI-powered financial document intelligence platform that simplifies the way individuals interact with their financial data — turning complex documents into insights, budgets, visual summaries, and peace of mind.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Features at a Glance
 
-**Use Lovable**
+### Smart Financial Document Hub  
+- Drag-and-drop document uploads (invoices, receipts, tax returns, bank statements)  
+- Animated upload progress bar with previews  
+- Automatic categorization and OCR processing  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a131d057-d018-4ca2-9497-42ab5a64e7bc) and start prompting.
+### Emergency Financial Blackbox  
+- Military-grade encryption for sensitive info  
+- Geo-triggered and biometric emergency access  
+- Trusted contact access & offline download modes  
+- Organized storage for IDs, insurance, property, estate docs, etc.  
 
-Changes made via Lovable will be committed automatically to this repo.
+### AI Financial Coach – “Talk to Your FinTwin”  
+- Intelligent assistant with chat + voice interface  
+- Answers queries like:  
+  _“How much did I spend on groceries last month?”_  
+  _“Can I afford to upgrade my car?”_  
+- Generates budgets, trends, and insights based on uploaded documents  
 
-**Use your preferred IDE**
+### Bill Splitting – “Scan. Split. Chill.”  
+- Upload a receipt, and the AI scans and splits  
+- Assign items to friends with drag-and-drop  
+- Tip/tax auto-distribution, payment integration, and beautiful UX  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Visual Financial Dashboard  
+- Scroll-triggered data visualizations  
+- Animated charts: spending, savings, category breakdown  
+- Quick actions, monthly comparisons, and exportable reports  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Automated Budgeting  
+- AI-generated budgets based on real spending  
+- Visual sliders, budget progress bars, and threshold alerts  
+- Toggle between weekly/monthly views  
 
-Follow these steps:
+### Financial Horoscope (Fun Gamified Insights)  
+- Personality-based financial tips  
+- Celestial animations, karma score, daily nudges  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Built With
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Frontend: React, TypeScript, Tailwind CSS  
+- Backend: Supabase (Auth + DB), Serverless Functions  
+- AI & Automation: OCR engines, GPT integrations (for coach)  
+- Animations: Framer Motion, Lottie  
+- Responsive: Mobile-first design with full cross-device support  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## Project Structure
+
+```bash
+/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Core route views
+│   ├── utils/              # Helper functions (AI, OCR, etc.)
+│   ├── api/                # Supabase and serverless interactions
+│   └── styles/             # Theme & animations
+├── supabase/               # Supabase SQL + Auth configs
+└── README.md
+```
+
+---
+
+## Use Case Scenarios
+
+- Preparing for a loan or tax audit? 🧾  
+- Lost your wallet during travel? Activate Emergency Mode. 🌍  
+- Want to understand your money habits better? Just ask the AI Coach. 🧠  
+- Splitting bills with friends after a trip? Let the AI handle the math. 🧮  
+
+---
+
+## Security First
+
+- AES-256 encryption  
+- Zero-knowledge architecture (even admins can't view your data)  
+- Full audit logging & activity tracking  
+- Geo-redundant data backup  
+- End-to-end biometric emergency protocols
+
+---
+
+## Setup Instructions
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/janvichandra4/moneylens.git
+cd moneylens
+
+# 2. Install dependencies
+npm install
+
+# 3. Setup environment
+cp .env.example .env
+# Fill in Supabase keys, API tokens, etc.
+
+# 4. Run the dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 👨‍💻 Team
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a131d057-d018-4ca2-9497-42ab5a64e7bc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ by  
+Janvi Chandra – UI/UX Designer, Full-Stack Developer, and AI Enthusiast
+Anoushka Garg - Data Scientist, AI Enthusiast, Software Developer
