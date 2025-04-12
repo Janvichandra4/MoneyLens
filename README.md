@@ -116,5 +116,5 @@ npm run dev
 ## 👨‍💻 Team
 
 Built with ❤️ by  
-Janvi Chandra – UI/UX Designer, Full-Stack Developer, and AI Enthusiast
-Anoushka Garg - Data Scientist, AI Enthusiast, Software Developer
+-Janvi Chandra – UI/UX Designer, Full-Stack Developer, and AI Enthusiast
+-Anoushka Garg - Data Scientist, AI Enthusiast, Software Developer
