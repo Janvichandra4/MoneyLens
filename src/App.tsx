@@ -9,6 +9,9 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Upload from "./pages/Upload";
+import Coach from "./pages/Coach";
+import BillSplit from "./pages/BillSplit";
+import Blackbox from "./pages/Blackbox";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -27,12 +30,11 @@ const App = () => {
             <Route path="/signup" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/upload" element={<Upload />} />
-            {/* Placeholder routes for future development */}
             <Route path="/expenses" element={<Dashboard />} />
             <Route path="/budgeting" element={<Dashboard />} />
-            <Route path="/coach" element={<Dashboard />} />
-            <Route path="/split" element={<Dashboard />} />
-            <Route path="/blackbox" element={<Dashboard />} />
+            <Route path="/coach" element={<Coach />} />
+            <Route path="/split" element={<BillSplit />} />
+            <Route path="/blackbox" element={<Blackbox />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
